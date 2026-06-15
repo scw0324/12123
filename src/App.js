@@ -42,13 +42,13 @@ const CLASSROOM_ANCHOR_RESET_FLAGS = ['resetAnchor', 'resetClassroomAnchor'];
 const CLASSROOM_PANEL_Y = 2.30;
 const CLASSROOM_CAPTURE_RADIUS = 3.58;
 const CLASSROOM_PANEL_SEQUENCE = [
-  {id: 'engaging', type: 'domain', label: 'Engaging', title: 'AI와 상호작용하기'},
-  {id: 'creating', type: 'domain', label: 'Creating', title: 'AI로 창작하기'},
-  {id: 'managing', type: 'domain', label: 'Managing', title: 'AI 관리하기'},
-  {id: 'designing', type: 'domain', label: 'Designing', title: 'AI 설계하기'},
-  {id: 'report', type: 'utility', label: 'Report', title: '결과 리포트'},
-  {id: 'framework', type: 'utility', label: 'AI Literacy', title: 'OECD AI 리터러시'},
-  {id: 'survey', type: 'utility', label: 'Survey', title: '설문조사'}
+  {id: 'engaging', type: 'domain', label: 'Stage 1', title: '댓글 하나가 시작된 일'},
+  {id: 'creating', type: 'domain', label: 'Stage 2', title: '퍼지는 소문'},
+  {id: 'managing', type: 'domain', label: 'Stage 3', title: '내 정보가 새고 있어'},
+  {id: 'designing', type: 'domain', label: 'Stage 4', title: '화면 너머의 채원이에게'},
+  {id: 'report', type: 'utility', label: 'Report', title: '탈출 리포트'},
+  {id: 'framework', type: 'utility', label: 'Intro', title: '방탈출 개요'},
+  {id: 'survey', type: 'utility', label: 'Survey', title: '탈출 방명록'}
 ];
 const DEFAULT_MISSION_ORDER = ['framework', 'engaging', 'creating', 'managing', 'designing', 'report', 'survey'];
 const STUDIO_RADIUS = 2.82;
