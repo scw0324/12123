@@ -5,7 +5,7 @@
       "title": "Stage 1: 댓글 하나가 시작된 일",
       "titleKo": "댓글 하나가 시작된 일",
       "description": "채원이 영상에 악플이 달림 → 온라인 예절·익명성",
-      "requiredQuestionCount": 3,
+      "requiredQuestionCount": 7,
       "questions": [
         {
           "id": "E-1",
@@ -57,6 +57,74 @@
           "feedbackWrong": "다시 생각해 보세요. 진정한 위로와 존중이 담긴 표현을 찾아보세요.",
           "explanation": "올바른 네티켓은 상대를 배려하고 존중하는 언어를 사용하는 것에서 시작됩니다.",
           "difficulty": "easy"
+        },
+        {
+          "id": "E-4",
+          "competence": "Distinguish between constructive criticism and malicious hate speech.",
+          "competenceKo": "건설적인 비판과 악의적인 혐오 표현을 구분한다.",
+          "question": "추가 단서가 발견되었습니다. 다음 중 악플(혐오 표현)이 아닌, 발전을 위한 '건설적인 비판'에 해당하는 댓글은 무엇일까요?",
+          "choices": [
+            "목소리 진짜 듣기 싫다. 영상 당장 내려라.",
+            "내용은 좋은데, 배경 음악이 너무 커서 목소리가 잘 안 들려요. 다음엔 조절해 주시면 더 좋을 것 같아요!",
+            "이딴 걸 영상이라고 올렸냐? 쯧쯧.",
+            "너네 학교 교복 보니까 수준 알만하다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 구체적인 개선점을 예의 바르게 제안하는 것은 훌륭한 비판입니다.",
+          "feedbackWrong": "다시 생각해 보세요. 단순한 비난이나 인신공격은 건설적인 비판이 아닙니다.",
+          "explanation": "건설적인 비판은 상대방의 기분을 상하게 하지 않으면서 더 나은 방향을 제시하는 것입니다.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "E-5",
+          "competence": "Understand the permanence of digital footprints.",
+          "competenceKo": "디지털 발자국의 영구성을 이해한다.",
+          "question": "악플러가 자신이 쓴 댓글을 황급히 삭제했습니다. '이제 다 지웠으니 아무 일도 없을 거야!'라고 안심하는 악플러에게 해줄 수 있는 경고는?",
+          "choices": [
+            "맞아. 지우면 아무 기록도 안 남아.",
+            "글을 삭제해도 누군가 캡처했거나 서버에 기록이 남아있을 수 있어 조심해야 해.",
+            "인터넷 연결을 끊으면 기록이 전부 사라져.",
+            "아이디를 탈퇴하면 과거의 잘못도 무조건 다 지워져."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 온라인에 한 번 남긴 흔적은 완전히 지우기 매우 어렵습니다.",
+          "feedbackWrong": "다시 생각해 보세요. 화면에서 보이지 않는다고 해서 정보가 완전히 사라지는 것은 아닙니다.",
+          "explanation": "디지털 공간에서는 삭제된 정보라도 복원되거나 공유될 수 있으므로, 처음부터 신중하게 행동해야 합니다.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "E-6",
+          "competence": "Understand the reporting mechanism of digital platforms.",
+          "competenceKo": "디지털 플랫폼의 신고 처리 메커니즘을 이해한다.",
+          "question": "우리가 악플을 '신고' 버튼으로 접수하면 플랫폼은 어떤 기준으로 이를 처리할까요?",
+          "choices": [
+            "신고가 들어오면 내용과 상관없이 무조건 계정을 정지시킨다.",
+            "해당 플랫폼이 정해둔 '커뮤니티 가이드라인' 위반 여부를 검토하여 조치한다.",
+            "신고한 사람에게 악플러의 집 주소를 알려준다.",
+            "플랫폼은 아무런 조치도 취하지 않는다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 플랫폼들은 자체적인 규칙(가이드라인)을 바탕으로 신고된 콘텐츠를 심사합니다.",
+          "feedbackWrong": "다시 생각해 보세요. 무조건적인 처벌이나 방관이 아닌, 정해진 절차와 규정이 있습니다.",
+          "explanation": "플랫폼 사업자는 커뮤니티 가이드라인을 통해 욕설, 혐오 표현 등을 규제하고 있습니다.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "E-7",
+          "competence": "Recognize the danger of confirmation bias in online hate.",
+          "competenceKo": "온라인 혐오에서 확증 편향의 위험성을 인식한다.",
+          "question": "방탈출 첫 번째 스테이지의 마지막 자물쇠입니다. 악플러가 '내 댓글에 좋아요 누른 사람이 이렇게 많으니 내 말이 무조건 맞아!'라고 주장합니다. 이 생각의 함정은 무엇일까요?",
+          "choices": [
+            "좋아요가 많으면 법적으로도 무죄가 된다.",
+            "자신과 비슷한 생각을 가진 사람들의 의견만 보고 진실이라고 믿는 '확증 편향'에 빠진 것이다.",
+            "온라인에서는 다수결이 모든 진리를 결정한다.",
+            "좋아요를 누른 사람들은 모두 해당 분야의 전문가이다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 첫 번째 스테이지를 완벽히 통과했습니다!",
+          "feedbackWrong": "다시 생각해 보세요. 동조하는 사람이 많다고 해서 그것이 사실이나 옳은 행동이 되는 것은 아닙니다.",
+          "explanation": "알고리즘과 온라인 특성상 끼리끼리 뭉쳐 자신의 생각이 무조건 맞다고 착각하는 확증 편향을 경계해야 합니다.",
+          "difficulty": "hard"
         }
       ]
     },
@@ -65,7 +133,7 @@
       "title": "Stage 2: 퍼지는 소문",
       "titleKo": "퍼지는 소문",
       "description": "단톡방에 가짜 정보가 돌기 시작 → 정보 판별·저작권",
-      "requiredQuestionCount": 3,
+      "requiredQuestionCount": 5,
       "questions": [
         {
           "id": "C-1",
@@ -117,6 +185,40 @@
           "feedbackWrong": "다시 생각해 보세요. 목적이 정당하다고 해서 다른 사람의 권리를 침해하는 방법이 용인되지는 않습니다.",
           "explanation": "일기장, 사진 등 개인의 기록물은 동의 없이 공유될 경우 사생활 침해 및 저작권 문제가 발생할 수 있습니다.",
           "difficulty": "easy"
+        },
+        {
+          "id": "C-4",
+          "competence": "Cross-check information to prevent the spread of fake news.",
+          "competenceKo": "가짜 뉴스 확산을 막기 위해 정보를 교차 검증한다.",
+          "question": "소문의 진원지를 추적해보니, 정체불명의 익명 블로그 하나뿐이었습니다. 이 정보가 가짜인지 확인하는 가장 좋은 방법은 무엇일까요?",
+          "choices": [
+            "해당 블로그 글을 끝까지 꼼꼼하게 읽어본다.",
+            "공식 뉴스나 학교 공지사항 등 다른 신뢰할 수 있는 출처와 비교(교차 검증)해 본다.",
+            "단톡방 친구들에게 투표를 올려서 진짜인지 가짜인지 다수결로 정한다.",
+            "블로그 주인이 진실이라고 적어두었으니 그대로 믿는다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 정보가 하나뿐일 때는 항상 다른 신뢰할 만한 곳의 정보와 비교해 보아야 합니다.",
+          "feedbackWrong": "다시 생각해 보세요. 출처가 하나뿐인 정보는 다각도로 확인해보는 과정이 필요합니다.",
+          "explanation": "교차 검증(Cross-checking)은 사실 확인을 위해 가장 기본적이고 중요한 방법입니다.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "C-5",
+          "competence": "Understand how sensationalism fuels the spread of misinformation.",
+          "competenceKo": "자극적인 요소가 잘못된 정보의 확산을 부추기는 방식을 이해한다.",
+          "question": "유독 이 가짜 소문이 다른 소식보다 단톡방에서 빠르게 퍼진 이유는 무엇일까요? 이 방의 마지막 암호를 풀어주세요.",
+          "choices": [
+            "진실된 정보는 항상 가짜 정보보다 빨리 퍼지기 때문이다.",
+            "학교 과제와 관련된 유익한 내용이었기 때문이다.",
+            "사람들의 호기심을 자극하는 부정적이고 충격적인 내용이었기 때문이다.",
+            "채원이가 유명한 연예인이었기 때문이다."
+          ],
+          "answerIndex": 2,
+          "feedbackCorrect": "정답입니다! 가짜 뉴스는 사람들의 감정을 자극하기 위해 의도적으로 충격적인 내용을 담는 경우가 많습니다.",
+          "feedbackWrong": "다시 생각해 보세요. 가짜 뉴스의 형태적 특성을 생각해보세요.",
+          "explanation": "가짜 뉴스는 사람들의 불안감이나 호기심을 극대화하여 클릭률과 공유를 늘리도록 설계되곤 합니다.",
+          "difficulty": "medium"
         }
       ]
     },
@@ -125,7 +227,7 @@
       "title": "Stage 3: 내 정보가 새고 있어",
       "titleKo": "내 정보가 새고 있어",
       "description": "앱 가입하다 개인정보 요구 → 개인정보·비밀번호",
-      "requiredQuestionCount": 3,
+      "requiredQuestionCount": 5,
       "questions": [
         {
           "id": "M-1",
@@ -177,6 +279,40 @@
           "feedbackWrong": "다시 생각해 보세요. 공공장소에서의 부주의는 개인정보 유출의 지름길입니다.",
           "explanation": "공용 기기 사용 후에는 반드시 명시적으로 '로그아웃' 버튼을 누르고 창을 닫아야 안전합니다.",
           "difficulty": "medium"
+        },
+        {
+          "id": "M-4",
+          "competence": "Recognize and avoid phishing attempts such as smishing.",
+          "competenceKo": "스미싱과 같은 피싱 시도를 인식하고 회피한다.",
+          "question": "갑자기 채원이의 폰으로 '[긴급] 당신의 계정이 해킹되었습니다. 아래 링크를 눌러 확인하세요'라는 문자가 왔습니다. 어떻게 대처해야 할까요?",
+          "choices": [
+            "너무 놀라서 즉시 링크를 누르고 시키는 대로 한다.",
+            "문자메시지에 포함된 의심스러운 링크(URL)는 절대 누르지 않고 삭제한다.",
+            "링크를 눌러 어떤 사이트인지 꼼꼼히 구경해 본다.",
+            "친구들에게 이 문자를 전달해서 링크를 눌러보라고 한다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 출처가 불분명한 문자 속 링크는 악성 앱을 설치하게 만드는 '스미싱'일 확률이 높습니다.",
+          "feedbackWrong": "다시 생각해 보세요. 문자나 메일로 온 수상한 링크는 절대로 클릭해서는 안 됩니다.",
+          "explanation": "스미싱 문자는 불안감을 조성하여 링크를 클릭하도록 유도하므로 무시하고 삭제하는 것이 가장 안전합니다.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "M-5",
+          "competence": "Understand privacy policies and consent requirements.",
+          "competenceKo": "개인정보 처리방침과 동의 요건을 이해한다.",
+          "question": "안전한 앱을 찾아 가입하려고 합니다. 약관 동의 화면에서 '전체 동의' 버튼을 누르기 전에 확인해야 할 가장 중요한 것은?",
+          "choices": [
+            "글씨가 너무 작으니 읽지 않고 넘긴다.",
+            "모두 '필수' 항목인지 확인하고, '선택' 항목(광고 수신 등)은 체크를 해제한다.",
+            "무조건 '선택' 항목까지 다 동의해야 가입이 잘 된다.",
+            "약관의 배경색이 내 마음에 드는지 확인한다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 3단계 무사 통과! 선택 항목은 동의하지 않아도 서비스를 이용할 수 있습니다.",
+          "feedbackWrong": "다시 생각해 보세요. 불필요한 개인정보가 마케팅 등에 쓰이지 않도록 선택 항목을 구분해야 합니다.",
+          "explanation": "회원가입 시 개인정보의 수집 및 이용 목적을 확인하고, 불필요한 '선택' 동의 항목은 체크를 해제하는 습관을 들여야 합니다.",
+          "difficulty": "medium"
         }
       ]
     },
@@ -185,7 +321,7 @@
       "title": "Stage 4: 화면 너머의 채원이에게",
       "titleKo": "화면 너머의 채원이에게",
       "description": "친구가 사이버폭력 피해자 → 방관자·대처법",
-      "requiredQuestionCount": 3,
+      "requiredQuestionCount": 5,
       "questions": [
         {
           "id": "D-1",
@@ -223,6 +359,40 @@
         },
         {
           "id": "D-3",
+          "competence": "Identify different types of cyberbullying.",
+          "competenceKo": "사이버 폭력의 다양한 유형을 식별한다.",
+          "question": "채원이가 단톡방을 나가려고 하자, 가해자들이 끊임없이 다시 초대하며 괴롭히고 있습니다. 이런 사이버 폭력의 형태를 무엇이라고 할까요?",
+          "choices": [
+            "떼카",
+            "카톡 감옥",
+            "와이파이 셔틀",
+            "패드립"
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 방을 나가도 계속 강제로 초대하는 행위를 흔히 '카톡 감옥'이라고 부릅니다.",
+          "feedbackWrong": "다시 생각해 보세요. 상황을 벗어나지 못하게 옭아매는 형태의 따돌림을 가리키는 은어입니다.",
+          "explanation": "단톡방 강제 초대나 나가지 못하게 하는 행위 모두 명백한 사이버 폭력에 해당합니다.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "D-4",
+          "competence": "Practice digital empathy without visual cues.",
+          "competenceKo": "시각적 단서 없이도 디지털 공감 능력을 발휘한다.",
+          "question": "채원이가 '나 진짜 너무 힘들다 ㅠㅠ'라는 문자를 보냈습니다. 얼굴이 보이지 않는 온라인 대화에서 우리가 꼭 지녀야 할 태도는 무엇일까요?",
+          "choices": [
+            "얼굴이 안 보이니 농담일 거라고 가볍게 넘긴다.",
+            "글에 담긴 감정을 텍스트 너머로 깊게 이해하고 공감해 주려 노력한다(디지털 공감).",
+            "이모티콘을 안 썼으니 별로 심각하지 않은 것이라 단정 짓는다.",
+            "읽씹(읽고 씹기)을 해서 대화를 빨리 끝낸다."
+          ],
+          "answerIndex": 1,
+          "feedbackCorrect": "정답입니다! 표정이 보이지 않아도 상대의 마음을 헤아리는 '디지털 공감' 능력이 필수입니다.",
+          "feedbackWrong": "다시 생각해 보세요. 비대면 상황일수록 상대방의 텍스트에서 감정을 세심하게 읽으려는 노력이 필요합니다.",
+          "explanation": "디지털 공감은 온라인 상에서 타인의 감정을 이해하고 적절히 반응하는 능력으로, 사이버 폭력 예방의 핵심입니다.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "D-5",
           "competence": "Provide appropriate support and empathy to victims of cyberbullying.",
           "competenceKo": "사이버 폭력 피해자에게 적절한 지지와 공감을 제공한다.",
           "question": "드디어 마지막 자물쇠가 열렸습니다. 상처받고 화면 너머에서 울고 있는 채원이에게 해줄 수 있는 가장 따뜻하고 올바른 대처 방법은 무엇일까요?",
