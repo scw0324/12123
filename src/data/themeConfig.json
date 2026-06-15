@@ -1,14 +1,14 @@
 {
-  "contentTitle": "AI 리터러시 측정 퀴즈",
-  "heroTitle": "AI 리터러시 측정 퀴즈",
-  "heroSubtitle": "",
+  "contentTitle": "방탈출: 화면 너머의 진실",
+  "heroTitle": "방탈출: 화면 너머의 진실",
+  "heroSubtitle": "사이버 폭력의 단서를 찾고 진실을 파헤치세요.",
   "schoolName": "",
   "subtitle": "",
   "startGuide": "",
-  "startButtonText": "시작하기",
-  "progressTitle": "AI Literacy Studio Progress",
-  "resultTitle": "AI Literacy 결과 리포트",
-  "resultFooter": "강점은 더 확장하고, 보완 영역은 해설을 읽으며 다시 도전해 보세요.",
+  "startButtonText": "방탈출 시작하기",
+  "progressTitle": "방탈출 진행 상황",
+  "resultTitle": "방탈출 최종 리포트",
+  "resultFooter": "획득한 단서와 해설을 다시 읽어보며 사이버 폭력 예방을 실천해 보세요.",
   "palette": {
     "surface": "#eef6fb",
     "surfaceElevated": "#f8fbff",
@@ -39,34 +39,34 @@
       "accent": "#2563eb",
       "accentSoft": "#dbeafe",
       "icon": "AI",
-      "shortLabel": "인식"
+      "shortLabel": "익명성"
     },
     "creating": {
       "accent": "#8b5cf6",
       "accentSoft": "#ede9fe",
       "icon": "CREATE",
-      "shortLabel": "창작"
+      "shortLabel": "가짜뉴스"
     },
     "managing": {
       "accent": "#16a34a",
       "accentSoft": "#dcfce7",
       "icon": "GUIDE",
-      "shortLabel": "관리"
+      "shortLabel": "보안"
     },
     "designing": {
       "accent": "#f97316",
       "accentSoft": "#ffedd5",
       "icon": "BUILD",
-      "shortLabel": "설계"
+      "shortLabel": "방관자"
     }
   },
   "introVideo": {
     "enabled": true,
     "type": "mp4",
     "url": "./assets/videos/ai-literacy-4-superpowers.mp4",
-    "title": "AI를 다루는 4가지 초능력",
-    "kicker": "사전 영상",
-    "description": "영상을 확인한 뒤 교실 속 마커를 선택해 AI 리터러시 퀴즈를 시작합니다.",
+    "title": "사건의 발단 (사전 영상)",
+    "kicker": "프롤로그",
+    "description": "영상을 확인한 뒤 단서를 모아 퀴즈를 풀고 방을 탈출하세요.",
     "confirmText": "영상 확인 완료",
     "requiredBeforeQuiz": true
   },
