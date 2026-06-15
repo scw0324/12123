@@ -1,0 +1,87 @@
+{
+  "contentTitle": "AI 리터러시 측정 퀴즈",
+  "heroTitle": "AI 리터러시 측정 퀴즈",
+  "heroSubtitle": "",
+  "schoolName": "",
+  "subtitle": "",
+  "startGuide": "",
+  "startButtonText": "시작하기",
+  "progressTitle": "AI Literacy Studio Progress",
+  "resultTitle": "AI Literacy 결과 리포트",
+  "resultFooter": "강점은 더 확장하고, 보완 영역은 해설을 읽으며 다시 도전해 보세요.",
+  "palette": {
+    "surface": "#eef6fb",
+    "surfaceElevated": "#f8fbff",
+    "surfaceGlass": "#dfefff",
+    "navy": "#102235",
+    "ink": "#10243a",
+    "muted": "#506b84",
+    "line": "#b9cde0",
+    "sky": "#62c6f2",
+    "violet": "#8b5cf6",
+    "mint": "#5eead4",
+    "success": "#21a66b",
+    "danger": "#de4d5a",
+    "warning": "#f59e0b"
+  },
+  "ui": {
+    "radius": 42,
+    "borderWidth": 2,
+    "shadow": "rgba(8, 22, 38, 0.16)",
+    "spacing": 32,
+    "fontScale": 1,
+    "panelStyle": "cleanFlat",
+    "depthGap": 0.12,
+    "glassOpacity": 0.88
+  },
+  "domains": {
+    "engaging": {
+      "accent": "#2563eb",
+      "accentSoft": "#dbeafe",
+      "icon": "AI",
+      "shortLabel": "인식"
+    },
+    "creating": {
+      "accent": "#8b5cf6",
+      "accentSoft": "#ede9fe",
+      "icon": "CREATE",
+      "shortLabel": "창작"
+    },
+    "managing": {
+      "accent": "#16a34a",
+      "accentSoft": "#dcfce7",
+      "icon": "GUIDE",
+      "shortLabel": "관리"
+    },
+    "designing": {
+      "accent": "#f97316",
+      "accentSoft": "#ffedd5",
+      "icon": "BUILD",
+      "shortLabel": "설계"
+    }
+  },
+  "introVideo": {
+    "enabled": true,
+    "type": "mp4",
+    "url": "./assets/videos/ai-literacy-4-superpowers.mp4",
+    "title": "AI를 다루는 4가지 초능력",
+    "kicker": "사전 영상",
+    "description": "영상을 확인한 뒤 교실 속 마커를 선택해 AI 리터러시 퀴즈를 시작합니다.",
+    "confirmText": "영상 확인 완료",
+    "requiredBeforeQuiz": true
+  },
+  "arMission": {
+    "enabled": true,
+    "sequential": false,
+    "markerMode": true,
+    "order": [
+      "framework",
+      "engaging",
+      "creating",
+      "managing",
+      "designing",
+      "report",
+      "survey"
+    ]
+  }
+}
