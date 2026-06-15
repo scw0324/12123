@@ -379,13 +379,13 @@ function registerXrVisibilityComponents() {
 }
 
 const STUDIO_FACES = {
-  progress: {...createFacePose(0, 2.30, STATION_ARC_RADIUS), label: 'Progress', zone: '진행률 / 리포트', accentKey: 'navy'},
-  framework: {...createFacePose(-42, 2.30, STATION_ARC_RADIUS), label: 'OECD', zone: 'OECD AI 리터러시', accentKey: 'framework'},
-  managing: {...createFacePose(-84, 2.30, STATION_ARC_RADIUS), label: 'Managing', zone: 'AI 관리하기', accentKey: 'success'},
-  engaging: {...createFacePose(-126, 2.30, STATION_ARC_RADIUS), label: 'Engaging', zone: 'AI와 상호작용하기', accentKey: 'sky'},
-  creating: {...createFacePose(42, 2.30, STATION_ARC_RADIUS), label: 'Creating', zone: 'AI로 창작하기', accentKey: 'violet'},
-  designing: {...createFacePose(84, 2.30, STATION_ARC_RADIUS), label: 'Designing', zone: 'AI 설계하기', accentKey: 'warning'},
-  survey: {...createFacePose(126, 2.30, STATION_ARC_RADIUS), label: 'Survey', zone: '설문조사', accentKey: 'mint'}
+  progress: {...createFacePose(0, 2.30, STATION_ARC_RADIUS), label: 'Progress', zone: '탈출 리포트', accentKey: 'navy'},
+  framework: {...createFacePose(-42, 2.30, STATION_ARC_RADIUS), label: 'Intro', zone: '미스터리 개요', accentKey: 'framework'},
+  managing: {...createFacePose(-84, 2.30, STATION_ARC_RADIUS), label: 'Stage 3', zone: '스테이지 3: 정보 유출', accentKey: 'success'},
+  engaging: {...createFacePose(-126, 2.30, STATION_ARC_RADIUS), label: 'Stage 1', zone: '스테이지 1: 댓글 추적', accentKey: 'sky'},
+  creating: {...createFacePose(42, 2.30, STATION_ARC_RADIUS), label: 'Stage 2', zone: '스테이지 2: 소문 판별', accentKey: 'violet'},
+  designing: {...createFacePose(84, 2.30, STATION_ARC_RADIUS), label: 'Stage 4', zone: '스테이지 4: 화면 너머', accentKey: 'warning'},
+  survey: {...createFacePose(126, 2.30, STATION_ARC_RADIUS), label: 'Survey', zone: '탈출 방명록', accentKey: 'mint'}
 };
 
 const STUDIO_FACE_ORDER = ['progress', 'creating', 'designing', 'survey', 'engaging', 'managing', 'framework'];
