@@ -426,8 +426,8 @@ const SECTION_POSES = {
 };
 
 const DEFAULT_THEME = {
-  contentTitle: 'AI 리터러시 측정 퀴즈',
-  heroTitle: 'AI 리터러시 측정 퀴즈',
+  contentTitle: '방탈출: 화면 너머의 진실',
+  heroTitle: '방탈출: 화면 너머의 진실',
   heroSubtitle: '',
   schoolName: '',
   subtitle: '',
