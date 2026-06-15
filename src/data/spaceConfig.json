@@ -1,10 +1,10 @@
 {
-  "contentName": "AI Literacy School",
+  "contentName": "방탈출: 화면 너머의 진실",
   "entrance": {
     "id": "entrance",
-    "title": "AI Literacy School",
-    "subtitle": "AI를 이해하고 판단하는 공간형 학습 캠퍼스",
-    "guide": "입장 후 중앙 광장에서 4개 학습 공간, 리포트 센터, 설문 정원으로 이동합니다.",
+    "title": "방탈출: 화면 너머의 진실",
+    "subtitle": "사이버 폭력의 단서를 찾고 진실을 파헤치는 방탈출 게임",
+    "guide": "입장 후 로비에서 4개의 스테이지(방)를 차례대로 통과하고 최종 리포트를 확인하세요.",
     "position": "0 0 0",
     "cameraPosition": "0 1.6 4",
     "cameraRotation": "0 0 0",
@@ -12,9 +12,9 @@
   },
   "hub": {
     "id": "hub",
-    "title": "Hub Plaza",
-    "titleKo": "중앙 광장",
-    "description": "AI Literacy School의 중심 광장입니다. 주변의 포털을 선택해 실제 공간으로 이동하세요.",
+    "title": "Main Lobby",
+    "titleKo": "메인 로비",
+    "description": "방탈출 로비입니다. 주변의 포털을 선택해 사건이 벌어지는 방으로 이동하세요.",
     "position": "0 0 -20",
     "cameraPosition": "0 1.6 -14",
     "cameraRotation": "0 0 0",
@@ -30,9 +30,9 @@
     {
       "id": "engaging",
       "domainId": "engaging",
-      "title": "Engaging with AI Hall",
-      "titleKo": "AI와 상호작용하기 홀",
-      "description": "추천, 검색, AI 판단, 편향과 영향을 탐험하는 공간",
+      "title": "Stage 1: The First Comment",
+      "titleKo": "Stage 1: 댓글 하나가 시작된 일",
+      "description": "악플과 익명성의 함정이 숨겨진 첫 번째 방",
       "position": "-24 0 -45",
       "cameraPosition": "-24 1.6 -39",
       "cameraRotation": "0 0 0",
@@ -44,9 +44,9 @@
     {
       "id": "creating",
       "domainId": "creating",
-      "title": "Creating with AI Studio",
-      "titleKo": "AI로 창작하기 스튜디오",
-      "description": "생성형 AI와 함께 아이디어를 만들고 다듬는 창작 공간",
+      "title": "Stage 2: Spreading Rumors",
+      "titleKo": "Stage 2: 퍼지는 소문",
+      "description": "가짜뉴스와 조작된 정보의 진실을 가려내는 두 번째 방",
       "position": "24 0 -45",
       "cameraPosition": "24 1.6 -39",
       "cameraRotation": "0 0 0",
@@ -58,9 +58,9 @@
     {
       "id": "managing",
       "domainId": "managing",
-      "title": "Managing AI Lab",
-      "titleKo": "AI 관리하기 랩",
-      "description": "AI 사용 여부와 위임, 지시, 점검을 연습하는 실험 공간",
+      "title": "Stage 3: Information Leak",
+      "titleKo": "Stage 3: 내 정보가 새고 있어",
+      "description": "과도한 정보 요구와 해킹 위협에서 벗어나는 세 번째 방",
       "position": "-24 0 -75",
       "cameraPosition": "-24 1.6 -69",
       "cameraRotation": "0 0 0",
@@ -72,9 +72,9 @@
     {
       "id": "designing",
       "domainId": "designing",
-      "title": "Designing AI Workshop",
-      "titleKo": "AI 설계하기 워크숍",
-      "description": "데이터, 모델, 평가, 개선을 탐구하는 메이커스페이스",
+      "title": "Stage 4: Beyond the Screen",
+      "titleKo": "Stage 4: 화면 너머의 채원이에게",
+      "description": "사이버 따돌림을 멈추고 방관자에서 벗어나는 마지막 방",
       "position": "24 0 -75",
       "cameraPosition": "24 1.6 -69",
       "cameraRotation": "0 0 0",
@@ -85,29 +85,12 @@
     },
     {
       "id": "report",
-      "title": "Report Center",
-      "titleKo": "리포트 센터",
-      "description": "학습 결과와 강점, 보완 영역을 확인하는 대시보드 공간",
+      "title": "Escape Report",
+      "titleKo": "탈출 결과 리포트",
+      "description": "수집한 단서와 퀴즈 결과를 확인하는 상황실",
       "position": "0 0 -105",
       "cameraPosition": "0 1.6 -99",
       "cameraRotation": "0 0 0",
       "accent": "#12263f",
       "kind": "report",
-      "portalPosition": "0 1.28 -3.55",
-      "portalRotation": "0 0 0"
-    },
-    {
-      "id": "survey",
-      "title": "Survey Garden",
-      "titleKo": "설문 정원",
-      "description": "학습 후 느낌과 의견을 차분히 남기는 성찰 공간",
-      "position": "0 0 -130",
-      "cameraPosition": "0 1.6 -124",
-      "cameraRotation": "0 0 0",
-      "accent": "#14b8a6",
-      "kind": "survey",
-      "portalPosition": "4.92 1.16 1.92",
-      "portalRotation": "0 -78 0"
-    }
-  ]
-}
+      "portalPosition": "0 1.28
